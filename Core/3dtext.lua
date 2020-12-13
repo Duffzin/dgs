@@ -161,12 +161,12 @@ dgsRenderer["dgs-dx3dtext"] = function(source,x,y,w,h,mx,my,cx,cy,enabled,eleDat
 					canBeBlocked = g_canBeBlocked
 				end
 				tmpCanBeBlocked = {
-					checkBuildings = canBeBlocked.checkBuildings ~= nil and canBeBlocked.checkBuildings or g_canBeBlocked.checkBuildings
-					checkVehicles = canBeBlocked.checkVehicles ~= nil and canBeBlocked.checkVehicles or g_canBeBlocked.checkVehicles
-					checkPeds = canBeBlocked.checkPeds ~= nil and canBeBlocked.checkPeds or g_canBeBlocked.checkPeds
-					checkObjects = canBeBlocked.checkObjects ~= nil and canBeBlocked.checkObjects or g_canBeBlocked.checkObjects
-					checkDummies = canBeBlocked.checkDummies ~= nil and canBeBlocked.checkDummies or g_canBeBlocked.checkDummies
-					seeThroughStuff = canBeBlocked.seeThroughStuff ~= nil and canBeBlocked.seeThroughStuff or g_canBeBlocked.seeThroughStuff
+					checkBuildings = canBeBlocked.checkBuildings ~= nil and canBeBlocked.checkBuildings or g_canBeBlocked.checkBuildings,
+					checkVehicles = canBeBlocked.checkVehicles ~= nil and canBeBlocked.checkVehicles or g_canBeBlocked.checkVehicles,
+					checkPeds = canBeBlocked.checkPeds ~= nil and canBeBlocked.checkPeds or g_canBeBlocked.checkPeds,
+					checkObjects = canBeBlocked.checkObjects ~= nil and canBeBlocked.checkObjects or g_canBeBlocked.checkObjects,
+					checkDummies = canBeBlocked.checkDummies ~= nil and canBeBlocked.checkDummies or g_canBeBlocked.checkDummies,
+					seeThroughStuff = canBeBlocked.seeThroughStuff ~= nil and canBeBlocked.seeThroughStuff or g_canBeBlocked.seeThroughStuff,
 					ignoreSomeObjectsForCamera = canBeBlocked.ignoreSomeObjectsForCamera ~= nil and canBeBlocked.ignoreSomeObjectsForCamera or g_canBeBlocked.ignoreSomeObjectsForCamera
 				}
 				canBeBlocked = g_canBeBlocked
